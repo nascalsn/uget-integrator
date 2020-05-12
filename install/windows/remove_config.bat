@@ -1,5 +1,7 @@
 @echo off
 
+@cd /d "%~dp0"
+
 :: Delete JSON config files
 DEL com.ugetdm.chrome.json
 DEL com.ugetdm.firefox.json
